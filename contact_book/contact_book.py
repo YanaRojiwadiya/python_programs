@@ -17,10 +17,7 @@ def add_contact(contact):
         print("please enter valid phone number")
 
 def display_contact(contact):
-    dict_contact = {}
-    for name, info in contact.items():
-        dict_contact[name] = {'Phone': info['phone'], 'email': info['email']}
-    print(dict_contact)
+    print(contact)
 
 def remove_contact(contact):
     name = input("enter name: ")
